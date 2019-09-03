@@ -1,0 +1,19 @@
+#foodContainer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    
+}
+
+.foodList{
+    display: flex;
+    list-style-type: none;
+    border: solid 1px red;
+    margin: 7px;
+    height: 10vw;
+    font: bolder;
+}
+
+.foodItem{
+    font-weight: bold;
+}
